@@ -9,7 +9,7 @@
       -webkit-text-stroke: 0.5px black;
   }
   .druidtext {
-    color:sandybrown;
+    color:rgb(243, 149, 67);
     -webkit-text-stroke: 0.5px black;
 }
 .priesttext {
@@ -21,7 +21,7 @@
     -webkit-text-stroke: 0.5px black;
 }
 .linktext {
-    color: rgb(23, 73, 71);
+    color: rgb(240, 219, 35);
     -webkit-text-stroke: 0.5px black;
 }
   header {
