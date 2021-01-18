@@ -4,32 +4,39 @@
   body {
       margin: 0;
   }
+  .headerText {
+      color:chocolate;
+      font-size: 30px;
+      margin-left:150px;
+      margin-bottom: 8%;
+      padding:0;
+  }
   .shamantext {
-      color: royalblue;
-      -webkit-text-stroke: 0.5px black;
+      color: rgb(105, 140, 245);
+      
   }
   .druidtext {
     color:rgb(243, 149, 67);
-    -webkit-text-stroke: 0.5px black;
+    
 }
 .priesttext {
     color: floralwhite;
-    -webkit-text-stroke: 0.5px black;
+    
 }
 .palatext {
     color:rgb(252, 157, 204);
-    -webkit-text-stroke: 0.5px black;
+    
 }
 .linktext {
     color: rgb(240, 219, 35);
-    -webkit-text-stroke: 0.5px black;
+    
 }
   header {
     position: fixed;
     display: flex;
     width: 100%;
     height: 50px;
-    background-color:rgb(175, 117, 73);
+    background-color:rgb(39, 39, 39);
 
 }
 .headerLeft {
@@ -46,9 +53,6 @@
     font-weight: 800;
     color: black;
 }
-.index.html {
-    display: flex;
-}
 .headerRight {
     display: flex;
     width: 50%;
@@ -60,17 +64,15 @@ nav a {
     text-decoration: none;  
     color: black;  
 }
+nav {
+    justify-content: flex-end;
+    margin-right: 190px;
+}
 .headerLinks {
     display: flex;
     width: 100%;
     align-items:center;
 
-}
-.Savabild {
-    width:100px;
-    height:30px;
-    margin-top: 10px;
-    margin-right: 10px;
 }
 .container {
     background-color:rgb(212, 184, 173);
@@ -80,6 +82,7 @@ nav a {
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 25px;
+    background-image:url(https://cdnassets.raider.io/images/bgtiles/stone.jpg);
 }
 .leftContainer {
     display:flex;
