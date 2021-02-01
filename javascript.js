@@ -1,16 +1,10 @@
-function myFunction() {
-    var hamburger = document.getElementById("hamburger");
-    var list = document.getElementById("dropdown-content");
-    console.log(list.style.display);
+const hamburgerButton = document.getElementById("hamburger");
+const dropdownMenu = document.getElementById("dropdown-content");
 
-    if (list.style.display = "none") {
-        list.style.display = "block";
-        console.log("1");
-    }
-
-    else {
-        list.style.display = "none";
-        console.log("2");
-    }
-
-  }
+hamburgerButton.addEventListener("click", function() {
+    dropdownMenu.classList.toggle("showDropdown");
+});
+// function toggleDropdown() {
+//     const dropdownMenu = document.getElementById("dropdown-content");
+//     dropdownMenu.classList.toggle("showDropdown");
+// }

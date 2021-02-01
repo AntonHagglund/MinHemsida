@@ -2,9 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="javascript.js"></script>
+    <link rel="icon" type="image/png" href="favicon-16x16.png" />
+    <link rel="icon" type="image/png" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" href="favicon.ico" />
+    <link rel="icon" type="image/png" href="android-chrome-192x192.png" />
+    <link rel="icon" type="image/png" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" href="android-chrome-512x512.png" />
   </head>
   <body>
     <header>
@@ -13,9 +19,26 @@
           <h1 class="headerText">Savanteroni CV</h1>
         </a>
       </div>
-
       <div class="headerRight">
         <nav class="headerLinks">
+          <div class="dropdown">
+            <button id="hamburger" class="dropbtn">
+              <svg viewBox="0 0 100 80" width="40" height="40">
+                <rect width="100" height="12"></rect>
+                <rect y="30" width="100" height="12"></rect>
+                <rect y="60" width="100" height="12"></rect>
+              </svg>
+            </button>
+            <div id="dropdown-content" class="dropdown-content">
+              <a class="shamantext" href="shaman.html">Shaman</a>
+              <a class="priesttext" href="priest.html">Priest</a>
+              <a class="druidtext" href="druid.html">Druid</a>
+              <a class="palatext" href="paladin.html">Paladin</a>
+              <a class="linktext" href="past.html">Past</a>
+              <a class="linktext" href="present.html">Present</a>
+            </div>
+          </div>
+
           <a class="shamantext" href="shaman.html">Shaman</a>
           <a class="priesttext" href="priest.html">Priest</a>
           <a class="druidtext" href="druid.html">Druid</a>
@@ -25,7 +48,9 @@
         </nav>
       </div>
     </header>
-
+    <div class="container">
+      <h1 class="welcome">Priest</h1>
+    </div>
     <div
       class="container"
       style="
@@ -79,4 +104,13 @@
       </div>
     </div>
   </body>
+  <footer>
+    <h4 class="footerText">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam laborum
+      impedit quod et architecto dignissimos possimus laudantium dolore, rerum
+      aspernatur asperiores maiores aliquid, quis mollitia id! Quos magnam
+      doloribus quasi.
+    </h4>
+    <script src="javascript.js"></script>
+  </footer>
 </html>

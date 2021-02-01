@@ -1,6 +1,11 @@
-<!-- handledning
-Footer (kan lägga till mer content)
-Javascript
+<!-- WCAG
+Logisk tabordning [X] A
+Bra kontrast [X] AA
+Beskriv med text allt innehåll som inte är text [X] A
+markera tydligt vilket fält eller element som är i fokus [X] AA
+Se till att text går att förstora utan problem [X] AA
+Flexibel layout som fungerar vid förstoring eller liten skärm [X] AA
+Använd text, inte bilder, för att visa text [X] AA
  -->
 <!DOCTYPE html>
 <html lang="en">
@@ -9,7 +14,6 @@ Javascript
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="javascript.js"></script>
     <link rel="icon" type="image/png" href="favicon-16x16.png" />
     <link rel="icon" type="image/png" href="favicon-32x32.png" />
     <link rel="icon" type="image/png" href="favicon.ico" />
@@ -28,7 +32,7 @@ Javascript
       <div class="headerRight">
         <nav class="headerLinks">
           <div class="dropdown">
-            <button id="hamburger" onclick="myFunction()" class="dropbtn">
+            <button id="hamburger" class="dropbtn">
               <svg viewBox="0 0 100 80" width="40" height="40">
                 <rect width="100" height="12"></rect>
                 <rect y="30" width="100" height="12"></rect>
@@ -36,9 +40,12 @@ Javascript
               </svg>
             </button>
             <div id="dropdown-content" class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+              <a class="shamantext" href="shaman.html">Shaman</a>
+              <a class="priesttext" href="priest.html">Priest</a>
+              <a class="druidtext" href="druid.html">Druid</a>
+              <a class="palatext" href="paladin.html">Paladin</a>
+              <a class="linktext" href="past.html">Past</a>
+              <a class="linktext" href="present.html">Present</a>
             </div>
           </div>
           <a class="shamantext" href="shaman.html">Shaman</a>
@@ -51,7 +58,9 @@ Javascript
       </div>
     </header>
     <!--header/-->
-
+    <div class="container">
+      <h1 class="welcome">This is a website</h1>
+    </div>
     <div class="container">
       <div class="section">
         <div class="card">
@@ -101,11 +110,12 @@ Javascript
     </div>
   </body>
   <footer>
-    <h4 class="footerText">
+    <p class="footerText">
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam laborum
       impedit quod et architecto dignissimos possimus laudantium dolore, rerum
       aspernatur asperiores maiores aliquid, quis mollitia id! Quos magnam
       doloribus quasi.
-    </h4>
+    </p>
+    <script src="javascript.js"></script>
   </footer>
 </html>
